@@ -1,13 +1,17 @@
 # mypylib
+
 Some useful Python libs
 
 These are some usefule Python libraries that I wrote for myself.
 
 ---
 
-*deepsize*
+## DeepSize
+
 Useful tool to learn about size of files and subfolders of a folder. 
 
+
+```
 $ python deepsize.py --help
 
 deepsize.py [options] path
@@ -21,10 +25,15 @@ Options:
 
 Sort the results:
 	                 -ss:	By file size
+```
 
 
-Examples:
+### Examples:
+
+```
 python deepsize.py -1024 /usr/lib
 python deepsize.py -1000 ./
 python deepsize.py --files -1000
+```
 
+---
